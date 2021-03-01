@@ -27,6 +27,7 @@ for(let i=0;i<n;i++){
     }else{
 
         console.log('EROR!!!');
+        i--;
     }
     
    
