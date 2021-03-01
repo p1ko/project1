@@ -12,9 +12,9 @@ const personalMovieDB ={
 };
 
 const a=prompt('Last film','');
-const b=prompt('Mark','');
+const b=+prompt('Mark','');
 
-personalMovieDB.movies[a]=a;
-personalMovieDB.movies[b]=b;
+personalMovieDB.movies=a +` `+b;
+
 
 console.log(personalMovieDB);
